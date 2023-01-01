@@ -19,12 +19,14 @@ dependencies:
   # The latest pub version is commented out and shown below as an example.
   #charts_common: ^0.12.0
   #path: ../charts_common/
+  #https://github.com/dart-lang/pub/issues/2447
+  # this git scheme seems to be working
   charts_common:  #google charts - officially discontinued
     git:
       url: https://github.com/clinsign/google-flutter-charts.git
       ref: master
       path: charts_common
-      
+
   collection: 
   flutter:
     sdk: flutter
